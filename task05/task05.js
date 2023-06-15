@@ -15,5 +15,4 @@ function isPalindrome(str) {
     }
     if (v == nv.length) return true;
     else return false;
-    
 }
