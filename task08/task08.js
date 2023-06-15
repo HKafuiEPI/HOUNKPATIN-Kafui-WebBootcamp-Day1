@@ -4,4 +4,5 @@ function findFirstIndex(array, element){
             return i;
         }
     }
+    return -1;
 }
