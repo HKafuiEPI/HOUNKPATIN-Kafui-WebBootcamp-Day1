@@ -17,7 +17,3 @@ function isPalindrome(str) {
     else return false;
     
 }
-
-const str = "A man, a plan, a canal: Panama";
-const isPalindromeString = isPalindrome(str);
-console.log(`Is "${str}" a palindrome? ${isPalindromeString}`);

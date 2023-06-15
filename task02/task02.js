@@ -6,7 +6,3 @@ function isPrime(n){
     if (a == 2) return true;
     else return false;
 }
-
-const number = 20;
-const isNumberPrime = isPrime(number);
-console.log(`Is ${number} prime? ${isNumberPrime}`);

@@ -5,7 +5,3 @@ function findLargestElement(n){
     }
     return max;
 }
-
-const array = [570, 2, 9, 1, 70];
-const largestElement = findLargestElement(array);
-console.log(`The largest element in the array is: ${largestElement}`);
