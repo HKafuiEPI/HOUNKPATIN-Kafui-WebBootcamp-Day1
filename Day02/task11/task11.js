@@ -1,9 +1,10 @@
+function my_prod(total, value) {
+    return total * value;
+}
+  
 function calculateProduct(num){
-    let r = 1;
-    for (let i = 0; i < num.length; i++){
-        r *= num[i];
-    }
-    return r;
+    let prod = num.reduce(my_prod);
+    return prod
 }
 
 module.exports = {

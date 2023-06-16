@@ -1,9 +1,10 @@
+function my_sum(total, value) {
+  return total + value;
+}
+
 function calculateSum(num){
-    let r = 0;
-    for (let i = 0; i < num.length; i++){
-        r += num[i];
-    }
-    return r;
+    let sum = num.reduce(my_sum);
+    return sum
 }
 
 module.exports = {
