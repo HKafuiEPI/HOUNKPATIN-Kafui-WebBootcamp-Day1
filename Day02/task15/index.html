@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Character Counter</title>
+  <script>
+    function countCharacters() {
+      let text = document.getElementById("myInput").value
+      let x = document.getElementById("charCount")
+      x.innerHTML = "Characters count: " + text.length;
+    }
+  </script>
+</head>
+<body>
+  <input type="text" id="myInput" oninput="countCharacters()" placeholder="Type here" />
+  <p id="charCount">Character count: 0</p>
+</body>
+</html>

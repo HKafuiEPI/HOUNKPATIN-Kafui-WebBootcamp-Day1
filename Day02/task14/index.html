@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Validation</title>
+  <script>
+    function validateForm() {
+        let text = document.getElementById("myInput").value
+        console.log(text);
+        if (text == ""){
+            alert("Fill this first");
+            return false;
+        }
+    }
+  </script>
+</head>
+<body>
+  <form onsubmit="return validateForm()">
+    <input type="text" id="myInput" placeholder="Enter a value" />
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
